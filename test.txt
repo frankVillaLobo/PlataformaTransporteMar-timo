@@ -1,0 +1,41 @@
+La empresa de transporte Naviera Fluvial Colombiana S A se encarga de transportar mercancías por vía fluvial. Ésta cuenta con cierta cantidad de barcos, y transporta los contenedores de un cliente, y los lleva a donde este le indique. 
+Para lo anterior es necesario que el cliente envíe los datos de los contenedores a transportar, indicando la cantidad, el peso y dimensión de cada uno de ellos, el puerto de origen y el puerto de destino.
+El cliente debe tener la posibilidad de seleccionar un puerto de origen y un puerto de destino, en base a esta distancia será generada la factura. 
+El valor a pagar será igual a la distancia en millas náuticas entre los puertos origen y destino multiplicado por el valor por milla náutica recorrida. 
+Por ejemplo, si el sistema tiene configurado un valor por milla náutica de $5.000, y la distancia de un puerto X a un puerto Y es de 200 millas náuticas, el valor total a pagar debe ser de 1.000.000.
+Los puertos de origen y destino deben estar pre-configurados en el sistema y deben ser mínimo  20, incluyendo la distancia entre ellos.
+Los tipos de usuarios que debe manejar el sistema son administrador, usuario interno y usuario externo.
+El usuario externo debe estar en la capacidad de:
+
+●	Darse de alta en la plataforma (Registrarse).
+●	Generar una orden de despacho indicando el nombre, descripción, peso y dimensiones del contenedor. Así mismo, deberá ingresar el puerto de origen y destino.
+●	Filtrar órdenes de despacho de acuerdo a su estado.
+●	Ver historial de ordenes de despacho.
+●	Ver detalle de una orden de despacho.
+
+Usuario interno debe estar en la capacidad de:
+●	Ingresar puertos de origen y destino con sus respectivas distancias.
+●	Configurar el valor en pesos por milla náutica recorrida.
+●	Aceptar órdenes de despacho de un cliente externo.
+●	Cambiar el estado de una orden de servicio:
+	○	Pendiente a despacho (Aceptada pero no ha salido)
+	○	Despachada (El vehiculo salio del punto de origen)
+	○	Finalizada (El vehiculo llego a destino)
+	○	Cancelada (Orden no acepta)
+●	Ver historial de ordenes de despacho.
+●	Ver detalle de una orden de despacho.
+●	Ver listado de órdenes despachadas en el día.
+
+
+Consideraciones del sistema:
+La generación de la factura debe ser automática teniendo en cuenta el valor configurado por milla náutica recorrida y la distancia entre los puertos origen y destino.
+
+Un administrador se encarga de gestionar los usuarios internos y además ejerce control total de la plataforma.
+
+Notas:
+●	Los datos suministrados por los usuarios deben cumplir la política de privacidad de datos vigente, es decir las contraseñas de los usuarios deben almacenarse de forma cifrada y la conexión al servidor debe realizarse de forma segura.
+●	La base de datos debe ser no relacional.
+●	Se debe utilizar una arquitectura desacoplada, es decir, una API back end y un front end que consuma dicha API.
+●	La API back end debe estar desarrollada en Express.js
+●	El front end debe estar desarrollado en React.js
+●	Se debe utilizar Bootstrap como librería CSS  para manejar los estilos de su aplicación.
