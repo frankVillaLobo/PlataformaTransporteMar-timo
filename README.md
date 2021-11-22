@@ -1,0 +1,6 @@
+# Plataforma Transporte Marítimo/Fluvial de Mercancías
+La empresa de transporte Naviera Fluvial Colombiana S A se encarga de transportar mercancías por vía fluvial. Ésta cuenta con cierta cantidad de barcos, y transporta los contenedores de un cliente, y los lleva a donde este le indique. 
+Para lo anterior es necesario que el cliente envíe los datos de los contenedores a transportar, indicando la cantidad, el peso y dimensión de cada uno de ellos, el puerto de origen y el puerto de destino.
+El cliente debe tener la posibilidad de seleccionar un puerto de origen y un puerto de destino, en base a esta distancia será generada la factura. El valor a pagar será igual a la distancia en millas náuticas entre los puertos origen y destino multiplicado por el valor por milla náutica recorrida. Por ejemplo, si el sistema tiene configurado un valor por milla náutica de $5.000, y la distancia de un puerto X a un puerto Y es de 200 millas náuticas, el valor total a pagar debe ser de 1.000.000.
+Los puertos de origen y destino deben estar pre-configurados en el sistema y deben ser mínimo  20, incluyendo la distancia entre ellos.
+Los tipos de usuarios que debe manejar el sistema son administrador, usuario interno y usuario externo.
