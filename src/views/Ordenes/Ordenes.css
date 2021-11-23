@@ -1,0 +1,21 @@
+Form{
+    /* background-color: #F59344; */
+    margin-bottom: 20px;
+}
+
+.btn__enviar, .btn__volver{
+    background-color:rgb(27, 99, 59);
+    margin-bottom: 20px;
+}
+
+.btn__borrar{
+    background-color: rgb(163, 47, 27);
+    margin-bottom: 20px;
+}
+
+.btn__enviar:hover, .btn__borrar:hover, .btn__volver:hover{
+    background-color:#00091D;
+}
+
+
+

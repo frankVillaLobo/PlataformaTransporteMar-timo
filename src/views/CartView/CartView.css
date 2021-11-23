@@ -1,0 +1,15 @@
+.btn__minus{
+    background-color: rgb(163, 47, 27);
+}
+
+.btn__plus{
+    background-color: rgb(47, 156, 158);
+}
+
+.btn__comprar{
+    background-color:rgb(27, 99, 59);
+}
+
+.btn__comprar:hover, .btn__plus:hover, .btn__minus:hover{
+    background-color:#00091D;
+}

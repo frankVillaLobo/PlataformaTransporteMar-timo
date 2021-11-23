@@ -1,0 +1,44 @@
+.btn__vaciar{
+    margin: 5px;
+    height: 35px;
+    width: 160px;
+    margin-bottom: 0;
+    background-color: rgb(163, 47, 27);
+}
+
+.btn__seguir{
+    margin: 5px;
+    height: 35px;
+    width: 160px;
+    margin-bottom: 0;
+    background-color: rgb(47, 156, 158);
+}
+
+.btn__pago{
+    background-color: rgb(27, 99, 59);
+}
+
+.btn__pago:hover, .btn__seguir:hover, .btn__vaciar:hover{
+    background-color: #CDA448;
+}
+
+#form_cart{
+    background-color: #00091D;
+    padding: 40px;
+    margin-bottom:40px;
+}
+
+.cart-total{
+    color: #CDA448;
+    font-size: large;
+    font-weight: 900;
+}
+
+.cart-p-item{
+    color:#00091D;
+    font-weight: 600;
+}
+
+.img__empty{
+    margin-right: 40px;
+}

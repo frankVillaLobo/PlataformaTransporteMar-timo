@@ -1,0 +1,23 @@
+.cart-img {
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.logo {
+    width: 4vh;    
+    height: auto;
+        z-index: 1;
+        padding-bottom: 15px;
+    }
+.p {
+        z-index: 2;
+        right: 10.9%;
+        bottom: 91.5%;
+        font-size: 80%;
+        font-weight: 500;
+        position: absolute;
+    }
+.cant_logo{
+    margin-top: 10px;
+    color: #CDA448;
+}

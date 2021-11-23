@@ -1,0 +1,11 @@
+.btn__item--detail{
+    background-color:rgb(27, 99, 59);
+}
+
+.btn__item--detail:hover{
+    background-color:#00091D;
+}
+
+.item-p{
+    color: #00091D;
+}
