@@ -81,32 +81,12 @@ function Home() {
 						<article class="article2 col-md-12">
 							<h3 class="title3 wow animate__animated animate__zoomIn" id="t3"> Cobertura</h3>
 							<img className="map_col wow animate__animated animate__zoomInDown img-fluid"	src={cobertura} alt=""/>
-							<div class="container col-md-9">
-							<p class="parrafo__cobertura ">Realizamos obras en todo el territorio nacional, tanto en zonas urbanas como en zonas rurales incluso de difícil acceso.</p>
+							<div class="container col-md-9 bg-white">
+							<p class="parrafo__cobertura  bg-white ">Transportamos su mercancía a los principales puertos del mundo</p>
 							</div>
 						</article>
 					</div>
-				</div>
-
-			<div class="after-post-content">
-					<div class="row">
-						<div class="subscription-single alignwide col-md-12 wow animate__animated animate__flipInY"><p class="p_subs">¿Quieres recibir <strong>gratis</strong> contenidos exclusivos?</p>
-							<form target="_self" method="post" action="" >
-								<div class="mailpoet_paragraph ">
-									<input 	type="email" class="mailpoet_text input_subs" id="input_email" name="" title="Correo Electrónico"  placeholder="Correo Electrónico *" /><input  type="submit" class="mailpoet_submit input_subs" id="input_subs" value="¡Suscríbete!"/>
-								</div>
-								<div class="">
-								</div>
-								<div class="mailpoet_paragraph ">
-									<label class="mailpoet_checkbox_label">
-										<input lass="input_pol"	type="checkbox" class="mailpoet_checkbox"/> He leído y acepto la política de privacidad.
-									</label><span class=""></span></div>
-								<div class="mailpoet_paragraph last"><a class="poli_takion" href="">Política de Privacidad</a></div>
-							</form>
-						</div>
-					</div>
-				
-			</div>	
+				</div>			
         </div>
     )
 }
